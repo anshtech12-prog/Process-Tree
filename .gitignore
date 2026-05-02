@@ -1,0 +1,30 @@
+# ==============================
+# Process Tree Visualizer — .gitignore
+# ==============================
+
+# ----- Compiled binaries -----
+*.exe
+*.o
+*.obj
+
+# ----- Runtime data (generated on each refresh) -----
+data/process.json
+
+# ----- Node.js -----
+node_modules/
+
+# ----- OS files -----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# ----- IDE / Editor -----
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,18 @@
+{
+  "name": "process-tree-visualizer",
+  "version": "1.0.0",
+  "description": "OS-Level Parent-Child Process Mapping & Real-Time Monitoring Tool. Uses a C backend (Win32 API) to enumerate system processes and a Node.js bridge server to serve an interactive web-based visualization.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "process-tree",
+    "operating-system",
+    "win32-api",
+    "process-monitor",
+    "visualization"
+  ],
+  "author": "Process Tree Visualizer Project Team",
+  "license": "ISC"
+}
